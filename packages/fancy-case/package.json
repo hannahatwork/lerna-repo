@@ -1,6 +1,6 @@
 {
   "name": "@lerna-repo/fancy-case",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "cjs/index.js",
   "--mainDescription": "The main field makes sure that Node users using require will be served the UMD version.",
   "module": "esm/index.js",

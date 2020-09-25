@@ -1,9 +1,9 @@
 {
   "name": "@lerna-repo/server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "dependencies": {
-    "@lerna-repo/common": "1.0.0"
+    "@lerna-repo/common": "^1.0.2"
   },
   "scripts": {
     "test": "echo testing server!"
