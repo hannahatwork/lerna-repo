@@ -6,10 +6,13 @@
   ],
   "scripts": {
     "test": "lerna run test",
-    "scopedTest": "lerna run test --scope={@lerna-repo/common,@lerna-repo/fancy-case}",
-    "new-version": "lerna version --conventional-commits --yes"
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
   }
 }
