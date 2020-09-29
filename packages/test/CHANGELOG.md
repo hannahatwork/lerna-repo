@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.4](https://github.com/hannahatwork/lerna-repo/compare/v1.0.3...v1.0.4) (2020-09-29)
 
-**Note:** Version bump only for package @lerna-repo/fancy-case
-
-
-
-
-
-## 1.0.2 (2020-09-25)
-
-**Note:** Version bump only for package @lerna-repo/fancy-case
+**Note:** Version bump only for package test
