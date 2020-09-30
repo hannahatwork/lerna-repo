@@ -7,6 +7,7 @@
   "--moduleDescription": "The module field is not an official npm feature but a common convention among bundlers to designate how to import an ESM version of our library.",
   "license": "MIT",
   "scripts": {
+    "start": "echo starting fancy-case!",
     "test": "echo testing fancy-case!",
     "prepare": "rollup --config",
     "--prepareDescription": "The prepare script is a special script that will be run by npm each time we run npm/yarn install or npm/yarn publish. It also makes it possible to directly install branches from Github for testing purposes via `npm/yarn install <user>/<repository>#<branch>`"
