@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "1.0.4",
   "scripts": {
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
