@@ -8,7 +8,8 @@
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
-    "rollup": "lerna run prepare"
+    "rollup": "lerna run prepare",
+    "build": "lerna run build"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
