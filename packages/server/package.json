@@ -10,5 +10,6 @@
   },
   "scripts": {
     "test": "echo testing server!"
-  }
+  },
+  "gitHead": "6826c4343d86475f0e144690e26d0583147317f8"
 }
