@@ -1,5 +1,5 @@
 {
-  "name": "fancy-case-ec6ba302-9fae-482d-a63c-ba4f6ebe22d5",
+  "name": "fancy-case-hannah-covetrus",
   "version": "1.2.16",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -23,5 +23,5 @@
     "rollup": "^2.27.1",
     "rollup-plugin-terser": "^7.0.2"
   },
-  "gitHead": "2ba3d80490215fde3dfda642a90d5f24befe0f22"
+  "gitHead": "711d5f5c023f5409dab8d073eea57c44ba23dc0a"
 }
