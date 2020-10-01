@@ -51,6 +51,8 @@ function App() {
   }, "lilac"), /*#__PURE__*/React.createElement("option", {
     value: "deep-sea-blue"
   }, "deep sea blue"), /*#__PURE__*/React.createElement("option", {
+    value: "deep-space-black"
+  }, "deep space black"), /*#__PURE__*/React.createElement("option", {
     value: "other"
   }, "other")));
 }
