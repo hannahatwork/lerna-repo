@@ -1,6 +1,6 @@
 {
   "name": "@lerna-repo/fancy-case",
-  "version": "1.1.3",
+  "version": "1.2.1",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "license": "MIT",
