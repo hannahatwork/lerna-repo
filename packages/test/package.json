@@ -6,6 +6,9 @@
     "dist/*"
   ],
   "version": "1.2.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@lerna-repo/fancy-case": "^1.2.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -55,5 +58,6 @@
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1",
     "react-scripts": ">=3.4.3"
-  }
+  },
+  "gitHead": "e9e82887d0fb26473547ea2b71b16ac80e248ada"
 }

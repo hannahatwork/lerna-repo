@@ -4,6 +4,9 @@
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "echo starting fancy-case!",
     "test": "echo testing fancy-case!",
