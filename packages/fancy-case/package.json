@@ -1,6 +1,6 @@
 {
   "name": "fancy-case-ec6ba302-9fae-482d-a63c-ba4f6ebe22d5",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "license": "MIT",
