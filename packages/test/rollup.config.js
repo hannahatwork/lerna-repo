@@ -8,7 +8,7 @@ import visualizer from 'rollup-plugin-visualizer';
 import pkg from './package.json';
 
 export default {
-    input: "src/index.js",
+    input: "src/main.js",
     external: ["ramda"],
     output: [
         {

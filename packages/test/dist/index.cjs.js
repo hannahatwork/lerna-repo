@@ -85,8 +85,10 @@ function unregister() {
   }
 }
 
-ReactDOM__default['default'].render( /*#__PURE__*/React__default['default'].createElement(React__default['default'].StrictMode, null, /*#__PURE__*/React__default['default'].createElement(App, null)), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+var index = ReactDOM__default['default'].render( /*#__PURE__*/React__default['default'].createElement(React__default['default'].StrictMode, null, /*#__PURE__*/React__default['default'].createElement(App, null)), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
 unregister();
+
+module.exports = index;

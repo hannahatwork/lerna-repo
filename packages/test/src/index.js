@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-export default ReactDOM.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
