@@ -17,6 +17,8 @@ On monorepos...
     - With monorepos you don't have to manage PRs for 8 different repositories when adding a feature
 - Reduces "contract area" between projects — not directly related to the package but related to how they rely on each other/are built/deployed
 - Make multiple changes in multiple microapps at once — code changes across modules are faster and easier, with fewer errors and in one PR!
+- Thought: if you need to do PRs in several repositories to do one feature, you should probably merge the repositories.
+    - This seems applicable beyond micro-applications/might be solving a different problem.
 - More info...
     - https://danluu.com/monorepo/
 
@@ -46,10 +48,7 @@ DEPENDENCY MANAGEMENT
         - If not, you can continue to use an older version of the module in your app if you've already installed it, but you can only ever install the latest version
     - Monorepo dependencies
         - Rollup allows each package to define its own dependencies, dev dependencies, and peer dependencies.
-
-SCALING
-
-NAMING STANDARDS
+        - Lerna keeps package dependencies up-to-date when the packages depend on each other.
 
 NAVIGATING CODE
 - Your `finds` (etc.) will search the entire project structure. This can be a good thing (finding & replacing an outdated method that is used in many packages) or a bad thing.
@@ -70,4 +69,8 @@ DEPLOYMENT
     - Need to redeploy the "parent" or "host" application in order to get the updated module (via NPM or direct Github url)
 
 PROJECT COUPLING & HOW TO PREVENT IT
+- Instead of direct imports, require co-applications as dependencies and use then as you would a normal library or dependency
 
+SCALING
+
+NAMING
