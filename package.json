@@ -1,5 +1,5 @@
 {
-  "name": "lerna-test",
+  "name": "lerna-repo-test",
   "private": false,
   "workspaces": [
     "packages/*"
