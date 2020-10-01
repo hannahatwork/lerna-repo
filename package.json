@@ -1,6 +1,7 @@
 {
   "name": "lerna-test",
-  "private": true,
+  "private": false,
+  "repository": "github:hannahatwork/lerna-repo",
   "workspaces": [
     "packages/*"
   ],

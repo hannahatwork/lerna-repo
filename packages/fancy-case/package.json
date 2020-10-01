@@ -2,20 +2,18 @@
   "name": "@lerna-repo/fancy-case",
   "version": "1.1.3",
   "main": "cjs/index.js",
-  "--mainDescription": "The main field makes sure that Node users using require will be served the UMD version.",
   "module": "esm/index.js",
-  "--moduleDescription": "The module field is not an official npm feature but a common convention among bundlers to designate how to import an ESM version of our library.",
   "license": "MIT",
   "scripts": {
     "start": "echo starting fancy-case!",
     "test": "echo testing fancy-case!",
-    "prepare": "rollup --config",
-    "--prepareDescription": "The prepare script is a special script that will be run by npm each time we run npm/yarn install or npm/yarn publish. It also makes it possible to directly install branches from Github for testing purposes via `npm/yarn install <user>/<repository>#<branch>`"
+    "prepare": "rollup --config"
   },
   "files": [
     "cjs/*",
     "esm/*",
-    "umd/*"
+    "umd/*",
+    "dist/*"
   ],
   "--filesDescription": "The files field makes sure that besides some default files, only our designated bundles are distributed via npm excluding sources, test files etc.",
   "devDependencies": {
