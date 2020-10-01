@@ -5,7 +5,7 @@
   "files": [
     "dist/*"
   ],
-  "version": "1.2.5",
+  "version": "1.2.7",
   "publishConfig": {
     "access": "public"
   },
