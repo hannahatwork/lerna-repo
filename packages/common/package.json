@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-repo/common",
+  "name": "@lerna-repo-test/common",
   "version": "1.2.13",
   "main": "index.js",
   "publishConfig": {
@@ -9,5 +9,5 @@
     "start": "echo starting common!",
     "test": "echo testing common!"
   },
-  "gitHead": "baafeb25522812f605168c9ea2e77d4aea46dcfe"
+  "gitHead": "a2ddd0ba57dff2ee1755f9165f484af79ea4c9ff"
 }

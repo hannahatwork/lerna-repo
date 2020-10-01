@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-repo/fancy-case",
+  "name": "@lerna-repo-test/fancy-case",
   "version": "1.2.13",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -23,5 +23,5 @@
     "rollup": "^2.27.1",
     "rollup-plugin-terser": "^7.0.2"
   },
-  "gitHead": "baafeb25522812f605168c9ea2e77d4aea46dcfe"
+  "gitHead": "a2ddd0ba57dff2ee1755f9165f484af79ea4c9ff"
 }
