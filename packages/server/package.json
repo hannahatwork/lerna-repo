@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-repo-test/server",
+  "name": "server-ec6ba302-9fae-482d-a63c-ba4f6ebe22d5",
   "version": "1.2.15",
   "main": "index.js",
   "publishConfig": {
@@ -11,5 +11,5 @@
   "scripts": {
     "test": "echo testing server!"
   },
-  "gitHead": "f906775672944b0da8ab571080ac2a1476700871"
+  "gitHead": "2ba3d80490215fde3dfda642a90d5f24befe0f22"
 }
