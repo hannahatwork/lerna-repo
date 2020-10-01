@@ -5,15 +5,15 @@
   "files": [
     "dist/*"
   ],
-  "version": "1.2.17",
+  "version": "1.2.18",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "fancy-case-hannah-covetrus": "^1.2.13",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2"
+    "@testing-library/user-event": "^7.1.2",
+    "fancy-case-hannah-covetrus": "^1.2.13"
   },
   "scripts": {
     "start": "react-scripts start",
