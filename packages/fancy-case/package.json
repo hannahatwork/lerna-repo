@@ -1,6 +1,6 @@
 {
   "name": "fancy-case-hannah-covetrus",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "license": "MIT",
