@@ -1,6 +1,6 @@
 {
   "name": "lerna-repo-test",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],

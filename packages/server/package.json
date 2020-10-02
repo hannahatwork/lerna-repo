@@ -6,7 +6,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lerna-repo/common": "^1.2.13"
+    "common-hannah-covetrus": "^1.2.13"
   },
   "scripts": {
     "test": "echo testing server!"
