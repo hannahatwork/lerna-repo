@@ -11,7 +11,7 @@ function App() {
         <option value="burnt-umber">burnt umber</option>
         <option value="lilac">lilac</option>
         <option value="deep-sea-blue">deep sea blue</option>
-        <option value="deep-space-black">{r.toLower("DEEP SPACE BLACK")}</option>
+        {/*<option value="deep-space-black">{r.toLower("DEEP SPACE BLACK")}</option>*/}
         <option value="other">other</option>
       </select>
     </div>
