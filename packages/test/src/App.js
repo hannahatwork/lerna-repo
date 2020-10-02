@@ -10,7 +10,7 @@ function App() {
         <option value="burnt-umber">burnt umber</option>
         <option value="lilac">lilac</option>
         <option value="deep-sea-blue">deep sea blue</option>
-        <option value="deep-space-black">deep space black</option>
+        {/*<option value="deep-space-black">deep space black</option>*/}
         <option value="other">other</option>
       </select>
     </div>
